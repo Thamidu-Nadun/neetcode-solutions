@@ -1,3 +1,8 @@
+"""
+=> Changed: checking remaining _k in the bucket using a safer way.
+### Time  Complexity: O(n log n)
+### Space Complexity: O(n)
+"""
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         res = dict()
