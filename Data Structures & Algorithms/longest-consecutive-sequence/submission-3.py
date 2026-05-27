@@ -1,3 +1,7 @@
+"""
+Time  Complexity: O(n log n)
+Space Complexity: O(n)
+"""
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         max_n = 0
