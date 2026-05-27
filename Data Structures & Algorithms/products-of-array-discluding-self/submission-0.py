@@ -1,3 +1,7 @@
+"""
+# Time  Complexity: O(n^2)
+# Space Complexity: O(n)
+"""
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         out = []
